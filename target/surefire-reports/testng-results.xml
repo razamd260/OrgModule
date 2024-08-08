@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-08T16:39:53Z" name="Suite" finished-at="2024-08-08T16:39:53Z" duration-ms="202">
+    <groups>
+      <group name="smoke">
+        <method signature="Contact.clickContect()[pri:0, instance:Contact.Contact@7fc4780b]" name="clickContect" class="Contact.Contact"/>
+        <method signature="OrgCreate.clickOrg()[pri:0, instance:Org.OrgCreate@3b79fd76]" name="clickOrg" class="Org.OrgCreate"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-08-08T16:39:53Z" name="Test" finished-at="2024-08-08T16:39:53Z" duration-ms="202">
+      <class name="Org.OrgCreate">
+        <test-method signature="clickOrg()[pri:0, instance:Org.OrgCreate@3b79fd76]" started-at="2024-08-08T16:39:53Z" name="clickOrg" finished-at="2024-08-08T16:39:53Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOrg -->
+      </class> <!-- Org.OrgCreate -->
+      <class name="Contact.Contact">
+        <test-method signature="clickContect()[pri:0, instance:Contact.Contact@7fc4780b]" started-at="2024-08-08T16:39:53Z" name="clickContect" finished-at="2024-08-08T16:39:53Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContect -->
+      </class> <!-- Contact.Contact -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
