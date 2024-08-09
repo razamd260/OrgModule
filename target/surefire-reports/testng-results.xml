@@ -1,44 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-09T02:54:11Z" name="Surefire suite" finished-at="2024-08-09T02:54:11Z" duration-ms="119">
+  <suite started-at="2024-08-09T12:42:55Z" name="Suite" finished-at="2024-08-09T12:42:55Z" duration-ms="142">
     <groups>
-      <group name="smoke">
-        <method signature="Contact.clickContect()[pri:0, instance:Contact.Contact@5b0abc94]" name="clickContect" class="Contact.Contact"/>
-      </group> <!-- smoke -->
+      <group name="regression">
+        <method signature="Contact.CreateContect()[pri:0, instance:Contact.Contact@5824a83d]" name="CreateContect" class="Contact.Contact"/>
+        <method signature="OrgCreate.createOrg()[pri:0, instance:Org.OrgCreate@537f60bf]" name="createOrg" class="Org.OrgCreate"/>
+      </group> <!-- regression -->
     </groups>
-    <test started-at="2024-08-09T02:54:11Z" name="Surefire test" finished-at="2024-08-09T02:54:11Z" duration-ms="119">
+    <test started-at="2024-08-09T12:42:55Z" name="Test" finished-at="2024-08-09T12:42:55Z" duration-ms="142">
+      <class name="Org.OrgCreate">
+        <test-method signature="createOrg()[pri:0, instance:Org.OrgCreate@537f60bf]" started-at="2024-08-09T12:42:55Z" name="createOrg" finished-at="2024-08-09T12:42:55Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+      </class> <!-- Org.OrgCreate -->
       <class name="Contact.Contact">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:Contact.Contact@5b0abc94]" started-at="2024-08-09T02:54:11Z" name="configBS" finished-at="2024-08-09T02:54:11Z" duration-ms="42" status="PASS">
+        <test-method signature="CreateContect()[pri:0, instance:Contact.Contact@5824a83d]" started-at="2024-08-09T12:42:55Z" name="CreateContect" finished-at="2024-08-09T12:42:55Z" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:Contact.Contact@5b0abc94]" started-at="2024-08-09T02:54:11Z" name="configBC" finished-at="2024-08-09T02:54:11Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:Contact.Contact@5b0abc94]" started-at="2024-08-09T02:54:11Z" name="configBM" finished-at="2024-08-09T02:54:11Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="clickContect()[pri:0, instance:Contact.Contact@5b0abc94]" started-at="2024-08-09T02:54:11Z" name="clickContect" finished-at="2024-08-09T02:54:11Z" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickContect -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:Contact.Contact@5b0abc94]" started-at="2024-08-09T02:54:11Z" name="configAM" finished-at="2024-08-09T02:54:11Z" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:Contact.Contact@5b0abc94]" started-at="2024-08-09T02:54:11Z" name="configAC" finished-at="2024-08-09T02:54:11Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:Contact.Contact@5b0abc94]" started-at="2024-08-09T02:54:11Z" name="configAS" finished-at="2024-08-09T02:54:11Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAS -->
+        </test-method> <!-- CreateContect -->
       </class> <!-- Contact.Contact -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
