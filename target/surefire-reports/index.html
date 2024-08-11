@@ -162,6 +162,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Listener.Listener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;groups&gt;
       &lt;run&gt;
@@ -226,7 +229,7 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'CreateContect')
 data.setCell(0, 2, 'Contact.Contact')
-data.setCell(0, 3, 34);
+data.setCell(0, 3, 505);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'createOrg')
 data.setCell(1, 2, 'Org.OrgCreate')
@@ -235,7 +238,7 @@ window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 37 ms</span>
+              <span class="suite-total-time">Total running time: 508 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -285,7 +288,7 @@ return data;
               <div class="chronological-class-name">Org.OrgCreate</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">createOrg</span>
-                <span class="method-start">41 ms</span>
+                <span class="method-start">544 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

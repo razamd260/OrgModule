@@ -2,22 +2,22 @@
 <testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-09T12:42:55Z" name="Suite" finished-at="2024-08-09T12:42:55Z" duration-ms="142">
+  <suite started-at="2024-08-10T03:17:20Z" name="Suite" finished-at="2024-08-10T03:17:21Z" duration-ms="621">
     <groups>
       <group name="regression">
-        <method signature="Contact.CreateContect()[pri:0, instance:Contact.Contact@5824a83d]" name="CreateContect" class="Contact.Contact"/>
-        <method signature="OrgCreate.createOrg()[pri:0, instance:Org.OrgCreate@537f60bf]" name="createOrg" class="Org.OrgCreate"/>
+        <method signature="Contact.CreateContect()[pri:0, instance:Contact.Contact@1e4f4a5c]" name="CreateContect" class="Contact.Contact"/>
+        <method signature="OrgCreate.createOrg()[pri:0, instance:Org.OrgCreate@37313c65]" name="createOrg" class="Org.OrgCreate"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2024-08-09T12:42:55Z" name="Test" finished-at="2024-08-09T12:42:55Z" duration-ms="142">
+    <test started-at="2024-08-10T03:17:20Z" name="Test" finished-at="2024-08-10T03:17:21Z" duration-ms="621">
       <class name="Org.OrgCreate">
-        <test-method signature="createOrg()[pri:0, instance:Org.OrgCreate@537f60bf]" started-at="2024-08-09T12:42:55Z" name="createOrg" finished-at="2024-08-09T12:42:55Z" duration-ms="3" status="PASS">
+        <test-method signature="createOrg()[pri:0, instance:Org.OrgCreate@37313c65]" started-at="2024-08-10T03:17:21Z" name="createOrg" finished-at="2024-08-10T03:17:21Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrg -->
       </class> <!-- Org.OrgCreate -->
       <class name="Contact.Contact">
-        <test-method signature="CreateContect()[pri:0, instance:Contact.Contact@5824a83d]" started-at="2024-08-09T12:42:55Z" name="CreateContect" finished-at="2024-08-09T12:42:55Z" duration-ms="34" status="PASS">
+        <test-method signature="CreateContect()[pri:0, instance:Contact.Contact@1e4f4a5c]" started-at="2024-08-10T03:17:20Z" name="CreateContect" finished-at="2024-08-10T03:17:21Z" duration-ms="505" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateContect -->

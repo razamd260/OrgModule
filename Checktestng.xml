@@ -5,11 +5,6 @@
 		<listener class-name="Listener.Listener"></listener>
 	</listeners>
   <test thread-count="5" name="Test">
-	  <groups>
-		  <run>
-			  <include name="regressionTest"></include>
-		  </run>
-	  </groups>
     <classes>
       <class name="Contact.Contact"/>
       <class name="Org.OrgCreate"/>

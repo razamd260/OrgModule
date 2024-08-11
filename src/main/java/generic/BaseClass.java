@@ -2,10 +2,13 @@ package generic;
 
 import java.sql.SQLException;
 
-
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 
 public class BaseClass {
+	
+	public static WebDriver driver;
 	@BeforeSuite(groups = {"smokeTest", "regressionTest"})
 	public void configBS() throws Throwable {
 		System.out.println("===Connect to DB , Report Config===");
@@ -16,7 +19,7 @@ public class BaseClass {
    //  @Parameters ("BROWSER")
     @BeforeClass(groups = {"smokeTest", "regressionTest"})
     public void configBC() throws Throwable {
-    	
+    	driver=new ChromeDriver();
     System.out.println("==Launch the BROWSER==");
 	
     }

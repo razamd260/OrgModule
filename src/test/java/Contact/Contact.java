@@ -1,12 +1,13 @@
 package Contact;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import generic.BaseClass;
-
+//@Listeners(Listener.Listener.class)
 public class Contact extends BaseClass{
      
-	@Test(groups = "smoke")
+	@Test(groups = "smokeTest")
 	public void clickContact() {
 		String Browser=System.getProperty("Browser");
 		System.out.println("browser Passing from  cmd   :  ===>  "+Browser);
@@ -20,7 +21,7 @@ public class Contact extends BaseClass{
 	}
 	
 	
-	@Test(groups = "regression")
+	@Test(groups = "regressionTest")
 	public void CreateContect() {
 		String Browser=System.getProperty("Browser");
 		System.out.println("browser Passing from  cmd   :  ===>  "+Browser);
