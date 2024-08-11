@@ -1,26 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-10T03:17:20Z" name="Suite" finished-at="2024-08-10T03:17:21Z" duration-ms="621">
+  <suite started-at="2024-08-11T14:17:45 IST" name="Suite" finished-at="2024-08-11T14:17:59 IST" duration-ms="14349">
     <groups>
-      <group name="regression">
-        <method signature="Contact.CreateContect()[pri:0, instance:Contact.Contact@1e4f4a5c]" name="CreateContect" class="Contact.Contact"/>
-        <method signature="OrgCreate.createOrg()[pri:0, instance:Org.OrgCreate@37313c65]" name="createOrg" class="Org.OrgCreate"/>
-      </group> <!-- regression -->
+      <group name="regressionTest">
+        <method signature="Contact.CreateContect()[pri:0, instance:Contact.Contact@28cda624]" name="CreateContect" class="Contact.Contact"/>
+        <method signature="OrgCreate.createOrg()[pri:0, instance:Org.OrgCreate@5c86a017]" name="createOrg" class="Org.OrgCreate"/>
+      </group> <!-- regressionTest -->
     </groups>
-    <test started-at="2024-08-10T03:17:20Z" name="Test" finished-at="2024-08-10T03:17:21Z" duration-ms="621">
+    <test started-at="2024-08-11T14:17:45 IST" name="Test" finished-at="2024-08-11T14:17:59 IST" duration-ms="14349">
       <class name="Org.OrgCreate">
-        <test-method signature="createOrg()[pri:0, instance:Org.OrgCreate@37313c65]" started-at="2024-08-10T03:17:21Z" name="createOrg" finished-at="2024-08-10T03:17:21Z" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:Org.OrgCreate@5c86a017]" started-at="2024-08-11T14:17:56 IST" name="configBC" finished-at="2024-08-11T14:17:59 IST" duration-ms="3685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:Org.OrgCreate@5c86a017]" started-at="2024-08-11T14:17:59 IST" name="configBM" finished-at="2024-08-11T14:17:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrg()[pri:0, instance:Org.OrgCreate@5c86a017]" started-at="2024-08-11T14:17:59 IST" name="createOrg" finished-at="2024-08-11T14:17:59 IST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:Org.OrgCreate@5c86a017]" started-at="2024-08-11T14:17:59 IST" name="configAM" finished-at="2024-08-11T14:17:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:Org.OrgCreate@5c86a017]" started-at="2024-08-11T14:17:59 IST" name="configAC" finished-at="2024-08-11T14:17:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
       </class> <!-- Org.OrgCreate -->
       <class name="Contact.Contact">
-        <test-method signature="CreateContect()[pri:0, instance:Contact.Contact@1e4f4a5c]" started-at="2024-08-10T03:17:20Z" name="CreateContect" finished-at="2024-08-10T03:17:21Z" duration-ms="505" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:Contact.Contact@28cda624]" started-at="2024-08-11T14:17:45 IST" name="configBS" finished-at="2024-08-11T14:17:45 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:Contact.Contact@28cda624]" started-at="2024-08-11T14:17:46 IST" name="configBC" finished-at="2024-08-11T14:17:55 IST" duration-ms="9583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:Contact.Contact@28cda624]" started-at="2024-08-11T14:17:56 IST" name="configBM" finished-at="2024-08-11T14:17:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateContect()[pri:0, instance:Contact.Contact@28cda624]" started-at="2024-08-11T14:17:56 IST" name="CreateContect" finished-at="2024-08-11T14:17:56 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateContect -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:Contact.Contact@28cda624]" started-at="2024-08-11T14:17:56 IST" name="configAM" finished-at="2024-08-11T14:17:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:Contact.Contact@28cda624]" started-at="2024-08-11T14:17:56 IST" name="configAC" finished-at="2024-08-11T14:17:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:Contact.Contact@28cda624]" started-at="2024-08-11T14:18:02 IST" name="configAS" finished-at="2024-08-11T14:18:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
       </class> <!-- Contact.Contact -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

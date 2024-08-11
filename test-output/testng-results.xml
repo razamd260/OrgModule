@@ -1,101 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-11T12:04:58 IST" name="Default suite" finished-at="2024-08-11T12:05:08 IST" duration-ms="10155">
+  <suite started-at="2024-08-11T12:29:17 IST" name="Suite" finished-at="2024-08-11T12:29:45 IST" duration-ms="28085">
     <groups>
       <group name="regressionTest">
-        <method signature="OrgCreate.createOrg()[pri:0, instance:Org.OrgCreate@3ad83a66]" name="createOrg" class="Org.OrgCreate"/>
+        <method signature="Contact.CreateContect()[pri:0, instance:Contact.Contact@26df6e3a]" name="CreateContect" class="Contact.Contact"/>
+        <method signature="OrgCreate.createOrg()[pri:0, instance:Org.OrgCreate@79c97cb]" name="createOrg" class="Org.OrgCreate"/>
       </group> <!-- regressionTest -->
-      <group name="smokeTest">
-        <method signature="OrgCreate.clickOrg()[pri:0, instance:Org.OrgCreate@3ad83a66]" name="clickOrg" class="Org.OrgCreate"/>
-      </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2024-08-11T12:04:58 IST" name="Default test" finished-at="2024-08-11T12:05:08 IST" duration-ms="10155">
+    <test started-at="2024-08-11T12:29:17 IST" name="Test" finished-at="2024-08-11T12:29:45 IST" duration-ms="28085">
       <class name="Org.OrgCreate">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:Org.OrgCreate@3ad83a66]" started-at="2024-08-11T12:04:58 IST" name="configBS" finished-at="2024-08-11T12:04:58 IST" duration-ms="42" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:Org.OrgCreate@3ad83a66]" started-at="2024-08-11T12:04:59 IST" name="configBC" finished-at="2024-08-11T12:05:08 IST" duration-ms="8847" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:Org.OrgCreate@79c97cb]" started-at="2024-08-11T12:29:39 IST" name="configBC" finished-at="2024-08-11T12:29:45 IST" duration-ms="5859" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:Org.OrgCreate@3ad83a66]" started-at="2024-08-11T12:05:08 IST" name="configBM" finished-at="2024-08-11T12:05:08 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:Org.OrgCreate@79c97cb]" started-at="2024-08-11T12:29:45 IST" name="configBM" finished-at="2024-08-11T12:29:45 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="clickOrg()[pri:0, instance:Org.OrgCreate@3ad83a66]" started-at="2024-08-11T12:05:08 IST" name="clickOrg" finished-at="2024-08-11T12:05:08 IST" duration-ms="39" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOrg -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:Org.OrgCreate@3ad83a66]" started-at="2024-08-11T12:05:08 IST" name="configAM" finished-at="2024-08-11T12:05:08 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:Org.OrgCreate@3ad83a66]" started-at="2024-08-11T12:05:08 IST" name="configBM" finished-at="2024-08-11T12:05:08 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createOrg()[pri:0, instance:Org.OrgCreate@3ad83a66]" started-at="2024-08-11T12:05:08 IST" name="createOrg" finished-at="2024-08-11T12:05:08 IST" duration-ms="93" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at Org.OrgCreate.createOrg(OrgCreate.java:36)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="createOrg()[pri:0, instance:Org.OrgCreate@79c97cb]" started-at="2024-08-11T12:29:45 IST" name="createOrg" finished-at="2024-08-11T12:29:45 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrg -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:Org.OrgCreate@3ad83a66]" started-at="2024-08-11T12:05:08 IST" name="configAM" finished-at="2024-08-11T12:05:08 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:Org.OrgCreate@79c97cb]" started-at="2024-08-11T12:29:45 IST" name="configAM" finished-at="2024-08-11T12:29:45 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:Org.OrgCreate@3ad83a66]" started-at="2024-08-11T12:05:08 IST" name="configAC" finished-at="2024-08-11T12:05:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:Org.OrgCreate@79c97cb]" started-at="2024-08-11T12:29:45 IST" name="configAC" finished-at="2024-08-11T12:29:45 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:Org.OrgCreate@3ad83a66]" started-at="2024-08-11T12:05:10 IST" name="configAS" finished-at="2024-08-11T12:05:10 IST" duration-ms="3" status="PASS">
+      </class> <!-- Org.OrgCreate -->
+      <class name="Contact.Contact">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:Contact.Contact@26df6e3a]" started-at="2024-08-11T12:29:16 IST" name="configBS" finished-at="2024-08-11T12:29:17 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:Contact.Contact@26df6e3a]" started-at="2024-08-11T12:29:20 IST" name="configBC" finished-at="2024-08-11T12:29:38 IST" duration-ms="18432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:Contact.Contact@26df6e3a]" started-at="2024-08-11T12:29:39 IST" name="configBM" finished-at="2024-08-11T12:29:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateContect()[pri:0, instance:Contact.Contact@26df6e3a]" started-at="2024-08-11T12:29:39 IST" name="CreateContect" finished-at="2024-08-11T12:29:39 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContect -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:Contact.Contact@26df6e3a]" started-at="2024-08-11T12:29:39 IST" name="configAM" finished-at="2024-08-11T12:29:39 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:Contact.Contact@26df6e3a]" started-at="2024-08-11T12:29:39 IST" name="configAC" finished-at="2024-08-11T12:29:39 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:Contact.Contact@26df6e3a]" started-at="2024-08-11T12:29:47 IST" name="configAS" finished-at="2024-08-11T12:29:47 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- Org.OrgCreate -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- Contact.Contact -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

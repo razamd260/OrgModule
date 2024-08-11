@@ -4,7 +4,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import generic.BaseClass;
-@Listeners(Listener.Listener.class)
+//@Listeners(Listener.Listener.class)
 public class OrgCreate extends BaseClass{
 	
 	
@@ -18,7 +18,7 @@ public class OrgCreate extends BaseClass{
 		String evn=System.getProperty("env");
 		System.out.println("evn Passing from  cmd   :  ===>  "+evn);
 		System.out.println("Smoke Testing ===>> Click Org");
-		//org.testng.Assert.assertTrue(false);
+		System.out.println(" Noushad ansari Smolke Testing Done");
 	
 	}
 	
@@ -33,7 +33,7 @@ public class OrgCreate extends BaseClass{
 		System.out.println("evn Passing from  cmd   :  ===>  "+evn);
 		
 		System.out.println("Resgression Testing ===>> createOrg");
-		//Assert.assertTrue(false);
+		System.out.println("Noushad Ansari resgression Testing");
 	}
 
 }

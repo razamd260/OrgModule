@@ -17,7 +17,7 @@ public class Contact extends BaseClass{
 		System.out.println("evn Passing from  cmd   :  ===>  "+evn);
 		System.out.println(" Smoke Testing ====> Click On Contact module");
 		
-		System.out.println(" ==========  8 : 23 ==============");
+		System.out.println(" Noushad ansari Smolke Testing Done");
 	}
 	
 	
@@ -30,5 +30,6 @@ public class Contact extends BaseClass{
 		String evn=System.getProperty("env");
 		System.out.println("evn Passing from  cmd   :  ===>  "+evn);
 		System.out.println(" regression Testing ====> Create Contact module");
+		System.out.println("Noushad Ansari resgression Testing");
 	}
 }
