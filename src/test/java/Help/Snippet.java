@@ -16,7 +16,8 @@ public class Snippet {
 			System.out.println(" Noushad ansari Smolke Testing Done");
 			System.out.println(" Noushad ansari Help Smoke Testing Done");
 			System.out.println(" Noushad ansari Help Smoke Testing Done");
-			System.out.println(" Noushad ansari Help Smoke Testing Done");
+			System.out.println(" Noushad ansari");
+			System.out.println(" Noushad ansari    Shiny");
 			
 		}
 		
