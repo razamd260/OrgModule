@@ -30,7 +30,7 @@ public class Contact extends BaseClass{
 		String evn=System.getProperty("env");
 		System.out.println("evn Passing from  cmd   :  ===>  "+evn);
 		System.out.println(" regression Testing ====> Create Contact module");
-		//System.out.println("Noushad Ansari resgression Testing");
+		System.out.println("Noushad Ansari resgression Testing");
 		
 		System.out.println("Madhuri Github");
 	}
